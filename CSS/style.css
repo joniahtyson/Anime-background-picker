@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  text-transform: uppercase;
+  background: linear-gradient(#66d1ff, #9198e5 60%);
+  height: 100vh;
+  overflow: hidden;
+}
+h1, h2 {
+  text-align: center;
+}
+
+h1{ 
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-family: "Honk", sans-serif;
+  font-size: 60px;
+}
+h2 {
+  font-size: 25px;
+  font-family: "Honk", sans-serif;
+}
+.oldShows, .newShows {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+img{
+  display: block;
+  height: 330px;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+  border: 1px solid black;
+  padding: 30px;
+  background-color: rgb(255, 215, 0);
+  transition: background-color 0.5s;
+}
+li:hover {
+  background-color: #ff40ab;
+  text-decoration: underline;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
